@@ -1,0 +1,47 @@
+PS C:\WAD clg> git remote add origin https://github.com/Mahesh1175/WAD.git
+
+PS C:\WAD clg> git remote -v
+origin  https://github.com/Mahesh1175/WAD.git (fetch)
+origin  https://github.com/Mahesh1175/WAD.git (push)
+
+PS C:\WAD clg> git init
+Initialized existing Git repository in C:/WAD clg/.git/
+
+PS C:\WAD clg> git add .
+
+PS C:\WAD clg> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Practical-1A/Dashboard.png
+        new file:   Practical-1A/Doc1.rtf
+        new file:   Practical-1B/login.png
+        new file:   Practical-1B/profile.png
+        new file:   Practical-1B/signup.png
+        new file:   demo.html
+
+PS C:\WAD clg> git commit -m "Added WAD practicals"
+[main 96b00be] Added WAD practicals
+ 6 files changed, 106907 insertions(+)
+ create mode 100644 Practical-1A/Dashboard.png
+ create mode 100644 Practical-1A/Doc1.rtf
+ create mode 100644 Practical-1B/login.png
+ create mode 100644 Practical-1B/profile.png
+ create mode 100644 Practical-1B/signup.png
+ create mode 100644 demo.html
+
+PS C:\WAD clg> git branch -M main
+
+PS C:\WAD clg> git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 790.78 KiB | 3.73 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mahesh1175/WAD.git
+   96b00be main
+
+PS C:\WAD clg>
